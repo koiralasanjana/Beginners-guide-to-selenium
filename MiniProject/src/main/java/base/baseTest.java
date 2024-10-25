@@ -20,6 +20,7 @@ public class baseTest {
     public ExtentReports extent;
     public ExtentTest logger;
 
+    //initialize extentreport
     @BeforeTest
     public void beforeTestMethod(){
         sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir")+ File.separator+"reports"+File.separator+"MiniProject");
